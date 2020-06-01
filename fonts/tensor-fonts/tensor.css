@@ -3,6 +3,7 @@
        url('./TensorFont.ttf') format('ttf');
   font-family: 'TensorFont';
   font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
        url('./TensorFontBold.ttf') format('ttf');
   font-family: 'TensorFont';
   font-weight: 900;
+  font-style: bold;
 }
 
 @font-face {
@@ -17,6 +19,7 @@
        url('./TensorFontBoldItalic.ttf') format('ttf');
   font-family: 'TensorFont';
   font-weight: 900;
+  font-style: boldItalic;
 }
 
 @font-face {
@@ -24,5 +27,6 @@
        url('./TensorFontItalic.ttf') format('ttf');
   font-family: 'TensorFont';
   font-weight: 400;
+  font-style: italic;
 }
 

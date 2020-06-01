@@ -1,2 +1,20 @@
+@import url(./__addresses/footer__addresses.css);
+@import url(./__address/footer__address.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__phones/footer__phones.css);
+@import url(./__phone/footer__phone.css);
+@import url(./__socials/footer__socials.css);
+@import url(./__social/footer__social.css);
+@import url(./__appstores/footer__appstores.css);
+@import url(./__appstore/footer__appstore.css);
+@import url(./__appstore-img/__appstore-img.css);
+@import url(./__list/footer__list.css);
+
 .footer {
+  max-width: 1152px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 50% 25% 25%;
+  border-top: 1px solid #000;
 }

@@ -5,4 +5,9 @@
   font-style: normal;
   font-size: 20px;
   color: rgb(49, 62, 120);
+  cursor: pointer;
+}
+
+.header__title:hover {
+  text-decoration: underline;
 }
