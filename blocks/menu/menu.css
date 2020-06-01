@@ -1,0 +1,7 @@
+@import url(./__links/menu__links.css);
+@import url(./__list/menu__list.css);
+@import url(./__link/menu__link.css);
+
+.menu {
+  display: inline-block;
+}
