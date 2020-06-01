@@ -1,0 +1,5 @@
+.menu__list {
+  width: fit-content;
+  list-style-type: none;
+  display: inline-block;
+}
