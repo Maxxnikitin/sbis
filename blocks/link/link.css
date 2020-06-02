@@ -1,0 +1,15 @@
+.link {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 1rem;
+  color: #0055bb;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #313e78;
+}

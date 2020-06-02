@@ -3,7 +3,8 @@
   width: fit-content;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: normal;
   color: rgb(49, 62, 120);
   cursor: pointer;
 }

@@ -1,0 +1,5 @@
+.content__blocks {
+  grid-area: blocks;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

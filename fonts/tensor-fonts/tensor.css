@@ -19,7 +19,7 @@
        url('./TensorFontBoldItalic.ttf') format('ttf');
   font-family: 'TensorFont';
   font-weight: 900;
-  font-style: boldItalic;
+  font-style: 'boldItalic';
 }
 
 @font-face {
