@@ -1,0 +1,6 @@
+@import url(./__cell/table__cell.css);
+@import url(./__paragraph/table__paragraph.css);
+
+.table {
+  display: flex;
+}

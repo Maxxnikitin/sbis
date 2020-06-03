@@ -1,0 +1,9 @@
+.marking-code__list {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: #666;
+  list-style-type: none;
+  margin-bottom: 7px;
+}

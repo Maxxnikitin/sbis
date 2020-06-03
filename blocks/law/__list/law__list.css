@@ -1,14 +1,16 @@
-.low__list {
+.law__list {
   font-weight: 400;
   font-style: normal;
   font-size: 1.125rem;
   line-height: 1.5rem;
   color: #666;
+  padding-top: 4px;
+  padding-bottom: 4px;
   list-style-type: none;
 }
 
-.low__list::before {
+.law__list::before {
   color: #0055bb;
-  content: '¶';
+  content: '\2022';
   padding-right: 10px;
 }
