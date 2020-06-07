@@ -1,3 +1,10 @@
+@import url(./_type/footer__social_type_fb.css);
+@import url(./_type/footer__social_type_vk.css);
+@import url(./_type/footer__social_type_ok.css);
+@import url(./_type/footer__social_type_yt.css);
+@import url(./_type/footer__social_type_insta.css);
+
 .footer__social {
   cursor: pointer;
+  position: relative;
 }

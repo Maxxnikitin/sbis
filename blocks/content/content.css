@@ -1,10 +1,14 @@
 @import url(./__blocks/content__blocks.css);
+@import url(./__news/content__news.css);
+@import url(./__main/content__main.css);
+@import url(./__news-img/content__news-img.css);
+@import url(./__news-title/content__news-title.css);
 
 .content {
   max-width: 1152px;
-  margin: 0 auto;
-  grid-template-rows: 1fr;
-  grid-template-columns: 75% 25%;
-  grid-gap: 3rem;
-  grid-template-areas: 'blocks news';
+  margin: 60px auto 0;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }

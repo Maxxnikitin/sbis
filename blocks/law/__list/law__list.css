@@ -12,5 +12,6 @@
 .law__list::before {
   color: #0055bb;
   content: '\2022';
-  padding-right: 10px;
+  position: relative;
+  left: -15px;
 }

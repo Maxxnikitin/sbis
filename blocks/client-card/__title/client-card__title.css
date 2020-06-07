@@ -1,0 +1,5 @@
+.client-card__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

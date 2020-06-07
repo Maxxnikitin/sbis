@@ -1,0 +1,12 @@
+@import url(./__title/client-card__title.css);
+@import url(./__name/client-card__name.css);
+@import url(./__city/client-card__city.css);
+@import url(./__company/client-card__company.css);
+@import url(./__paragraph/client-card__paragraph.css);
+
+.client-card {
+  padding: 12px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}

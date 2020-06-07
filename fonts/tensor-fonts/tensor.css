@@ -14,13 +14,13 @@
   font-style: bold;
 }
 
-@font-face {
+/*@font-face {
   src: url('./TensorFontBoldItalic.woff') format('woff'),
        url('./TensorFontBoldItalic.ttf') format('ttf');
   font-family: 'TensorFont';
   font-weight: 900;
   font-style: 'boldItalic';
-}
+}*/
 
 @font-face {
   src: url('./TensorFontItalic.woff') format('woff'),

@@ -1,6 +1,6 @@
 .page {
   width: 100%;
-  font-family: 'TensorFont', Arial, sans-serif;
+  font-family: 'TensorFont', Tahoma, 'Geneva', sans-serif; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;

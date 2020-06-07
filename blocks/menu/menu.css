@@ -3,5 +3,5 @@
 @import url(./__link/menu__link.css);
 
 .menu {
-  display: inline-block;
+  margin-left: auto;
 }

@@ -1,0 +1,9 @@
+.clients__title {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #313e78;
+  padding: 15px 0 5px 12px;
+  margin: 0;
+}

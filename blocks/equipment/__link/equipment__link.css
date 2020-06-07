@@ -1,0 +1,8 @@
+.equipment__link {
+  color: #0055bb;
+}
+
+.equipment__link:hover {
+  text-decoration: underline;
+  color: #313e78;
+}
