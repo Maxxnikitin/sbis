@@ -1,0 +1,10 @@
+.content__news-title {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: black;
+  margin: 0;
+  padding: 15px 0 5px 12px;
+  border-top: 3px solid #ff7033;
+}

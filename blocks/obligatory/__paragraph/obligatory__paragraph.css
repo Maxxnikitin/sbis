@@ -1,0 +1,11 @@
+.obligatory__paragraph {
+  display: inline-block;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: #666;
+  margin: 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}

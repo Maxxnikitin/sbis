@@ -1,0 +1,10 @@
+.scheme__list {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: #666;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  max-width: 385px;
+}

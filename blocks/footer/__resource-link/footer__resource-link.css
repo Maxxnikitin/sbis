@@ -1,0 +1,8 @@
+.footer__resource-link {
+  text-decoration: none;
+  color: #666;
+}
+
+.footer__resource-link:hover {
+  text-decoration: underline;
+}

@@ -1,3 +1,4 @@
+@import url(./__content/footer__content.css);
 @import url(./__addresses/footer__addresses.css);
 @import url(./__address/footer__address.css);
 @import url(./__copyright/footer__copyright.css);
@@ -9,12 +10,17 @@
 @import url(./__appstore/footer__appstore.css);
 @import url(./__appstore-img/__appstore-img.css);
 @import url(./__list/footer__list.css);
+@import url(./__links/footer__links.css);
+@import url(./__card/footer__card.css);
+@import url(./__title/footer__title.css);
+@import url(./__resources/footer__resources.css);
+@import url(./__resource/footer__resource.css);
+@import url(./__resource-link/footer__resource-link.css);
+@import url(./__img/footer__img.css);
+@import url(./__social-links/footer__social-links.css);
 
 .footer {
-  max-width: 1152px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 50% 25% 25%;
-  border-top: 1px solid #000;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 65px 20px;
 }

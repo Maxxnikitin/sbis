@@ -1,0 +1,7 @@
+.obligatory__cell {
+  width: 350px;
+}
+
+.obligatory__cell:nth-of-type(2n) {
+  margin-left: auto;
+}

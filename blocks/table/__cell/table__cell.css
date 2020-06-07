@@ -1,0 +1,11 @@
+.table__cell {
+  width: 250px;
+  background-color: rgb(243, 247, 252);
+  border-radius: 5px;
+  margin: 0 16px;
+  padding: 16px;
+}
+
+.table__cell:first-of-type {
+  margin-left: 0;
+}
