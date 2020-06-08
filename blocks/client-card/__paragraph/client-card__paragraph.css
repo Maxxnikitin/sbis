@@ -1,0 +1,9 @@
+.client-card__paragraph {
+  font-weight: 400;
+  font-style: normal;
+  font-size: .875rem;
+  line-height: normal;
+  color: #666;
+  margin: 0;
+  margin-top: 10px;
+}

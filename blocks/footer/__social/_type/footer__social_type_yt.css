@@ -1,0 +1,11 @@
+.footer__social_type_yt::before {
+  content: '';
+  position: absolute;
+  opacity: .8;
+  width: 20px;
+  height: 20px;
+}
+
+.footer__social_type_yt:hover::before {
+  background-image: url(../../../../images/social/yt.svg);
+}

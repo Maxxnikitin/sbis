@@ -1,0 +1,15 @@
+@import url(./__title/clients__title.css);
+@import url(./__button/clients__button.css);
+@import url(./__hidden/clients__hidden.css);
+
+.clients {
+  max-width: 268px;
+  margin: 20px auto 0;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .clients {
+    max-width: 100%;
+  }
+}

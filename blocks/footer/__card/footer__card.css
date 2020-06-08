@@ -1,0 +1,29 @@
+.footer__card {
+  max-width: 270px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1050px) {
+  .footer__card {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 950px) {
+  .footer__card {
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer__card {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer__card {
+    max-width: 140px;
+  }
+}

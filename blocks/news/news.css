@@ -1,0 +1,15 @@
+@import url(./__link/news__link.css);
+
+.news {
+  max-width: 268px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+          box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+  border-collapse: separate;
+}
+
+@media (max-width:1000px) {
+  .news {
+    max-width: 100%;
+  }
+}

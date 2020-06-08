@@ -1,0 +1,18 @@
+.footer__appstore {
+  position: relative;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.footer__appstore::before {
+  content: '';
+  position: absolute;
+  background-color: #ddd;
+  opacity: .7;
+  width: 62px;
+  height: 22px;
+}
+
+.footer__appstore:hover::before {
+  opacity: 0;
+}

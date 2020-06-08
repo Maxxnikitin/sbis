@@ -1,0 +1,9 @@
+.footer__copyright_mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .footer__copyright_mobile {
+    display: block;
+  }
+}

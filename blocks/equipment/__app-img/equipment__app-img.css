@@ -1,0 +1,11 @@
+.equipment__app-img {
+  width: 62px;
+  margin-left: 30px;
+}
+
+@media (max-width: 850px) {
+  .equipment__app-img {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}

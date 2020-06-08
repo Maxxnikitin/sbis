@@ -1,2 +1,11 @@
+@import url(./__content/header__content.css);
+@import url(./__title/header__title.css);
+@import url(./__logo/header__logo.css);
+
 .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
 }

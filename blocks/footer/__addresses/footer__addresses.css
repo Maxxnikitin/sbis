@@ -1,0 +1,12 @@
+.footer__addresses {
+  list-style-type: none;
+  padding: 0;
+  margin: 24px 0 0;
+}
+
+
+@media (max-width: 900px) {
+  .footer__addresses {
+    max-width: 400px;
+  }
+}

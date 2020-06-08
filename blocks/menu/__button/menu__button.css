@@ -1,0 +1,23 @@
+.menu__button {
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  margin-top: 16px;
+  margin-left: 15px;
+  width: 15px;
+  height: 25px;
+  background-color: #fff;
+}
+
+.menu__button:hover .menu__button-img {
+  background-color: #ff7033;
+}
+
+.menu__button:hover .menu__button-img::before {
+  background-color: #ff7033;
+}
+
+.menu__button:hover .menu__button-img::after {
+  background-color: #ff7033;
+}

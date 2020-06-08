@@ -1,0 +1,32 @@
+@font-face {
+  src: url('./TensorFont.woff') format('woff'),
+       url('./TensorFont.ttf') format('ttf');
+  font-family: 'TensorFont';
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  src: url('./TensorFontBold.woff') format('woff'),
+       url('./TensorFontBold.ttf') format('ttf');
+  font-family: 'TensorFont';
+  font-weight: 900;
+  font-style: bold;
+}
+
+/*@font-face {
+  src: url('./TensorFontBoldItalic.woff') format('woff'),
+       url('./TensorFontBoldItalic.ttf') format('ttf');
+  font-family: 'TensorFont';
+  font-weight: 900;
+  font-style: 'boldItalic';
+}*/
+
+@font-face {
+  src: url('./TensorFontItalic.woff') format('woff'),
+       url('./TensorFontItalic.ttf') format('ttf');
+  font-family: 'TensorFont';
+  font-weight: 400;
+  font-style: italic;
+}
+

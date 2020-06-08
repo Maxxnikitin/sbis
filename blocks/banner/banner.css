@@ -1,0 +1,10 @@
+@import url(./__title/banner__title.css);
+@import url(./__paragraph/banner__paragraph.css);
+@import url(./__form-button/banner__form-button.css);
+
+.banner {
+  background-color: #0087bf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

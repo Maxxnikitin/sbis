@@ -1,0 +1,17 @@
+@import url(./__cell/table__cell.css);
+@import url(./__paragraph/table__paragraph.css);
+
+.table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .table {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}

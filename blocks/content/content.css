@@ -1,4 +1,30 @@
+@import url(./__blocks/content__blocks.css);
+@import url(./__news/content__news.css);
+@import url(./__main/content__main.css);
+@import url(./__news-img/content__news-img.css);
+@import url(./__news-title/content__news-title.css);
+
 .content {
-  max-width: 1440px;
-  margin: 0 auto;
+  position: relative;
+  max-width: 1152px;
+  margin: 60px auto 0;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .content {
+    margin-top: 40px;
+  }
 }

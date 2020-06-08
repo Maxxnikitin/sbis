@@ -1,0 +1,9 @@
+.equipment__cost {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: #1e1e1e;
+  display: inline-block;
+  margin: 0;
+}
