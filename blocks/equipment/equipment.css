@@ -6,6 +6,7 @@
 @import url(./__cost/equipment__cost.css);
 @import url(./__app-img/equipment__app-img.css);
 @import url(./__link/equipment__link.css);
+@import url(./__img/equipment__img.css);
 
 .equipment {
   display: -webkit-box;
@@ -16,9 +17,28 @@
   border-radius: 8px;
   cursor: pointer;
   margin: 16px 0;
+  max-height: 198px;
 }
 
 .equipment:hover {
   border-color: #0055bb;
   background-color: #f0f5fb;
+}
+
+@media (max-width: 850px) {
+  .equipment {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (max-width: 650px) {
+  .equipment {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-height: 570px;
+  }
 }

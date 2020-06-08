@@ -1,0 +1,9 @@
+.obligatory__cell_two-column:nth-of-type(2n) {
+  margin-left: auto;
+}
+
+@media (max-width: 400px) {
+  .obligatory__cell_two-column:nth-of-type(2n) {
+    margin-left: 0;
+  }
+}
