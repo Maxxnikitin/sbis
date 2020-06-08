@@ -1,0 +1,17 @@
+.header-menu__title {
+  max-width: 181px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: #666;
+  margin: 0;
+  margin-left: 10px;
+}
+
+@media (max-width: 700px) {
+  .header-menu__title {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}

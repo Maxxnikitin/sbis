@@ -8,4 +8,14 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-top: 1px solid #ccc;
+  padding: 0 20px;
+}
+
+@media (max-width: 600px) {
+  .footer__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }

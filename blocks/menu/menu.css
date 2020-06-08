@@ -1,7 +1,12 @@
 @import url(./__links/menu__links.css);
 @import url(./__list/menu__list.css);
 @import url(./__link/menu__link.css);
+@import url(./__button/menu__button.css);
+@import url(./__button-img/menu__button-img.css);
 
 .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-left: auto;
 }

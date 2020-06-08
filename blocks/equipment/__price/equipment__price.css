@@ -10,3 +10,21 @@
   position: relative;
   left: -40px;
 }
+
+@media (max-width: 850px) {
+  .equipment__price {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    left: 0;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .equipment__price {
+    min-width: 0;
+    margin: 20px auto;
+  }
+}

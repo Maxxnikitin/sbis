@@ -2,6 +2,7 @@
 @import url(./__addresses/footer__addresses.css);
 @import url(./__address/footer__address.css);
 @import url(./__copyright/footer__copyright.css);
+@import url(./__copyright/_mobile/footer__copyright_mobile.css);
 @import url(./__phones/footer__phones.css);
 @import url(./__phone/footer__phone.css);
 @import url(./__socials/footer__socials.css);
@@ -22,5 +23,5 @@
 .footer {
   width: 100%;
   background-color: #f9f9f9;
-  padding: 65px 20px;
+  padding: 65px 0;
 }

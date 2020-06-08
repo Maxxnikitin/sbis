@@ -9,3 +9,15 @@
 .table__cell:first-of-type {
   margin-left: 0;
 }
+
+@media (max-width: 500px) {
+  .table__cell {
+    padding: 12px;
+    margin: 20px auto;
+    width: 100px;
+  }
+
+  .table__cell:first-of-type {
+    margin: 20px auto;
+  }
+}

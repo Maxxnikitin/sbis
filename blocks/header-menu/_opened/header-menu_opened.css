@@ -1,0 +1,21 @@
+.header-menu_opened {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  max-height: 95%;
+  overflow: auto;
+}
+
+@media (max-width: 800px) {
+  .header-menu_opened {
+    top: 30px;
+  }
+}

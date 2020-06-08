@@ -5,6 +5,22 @@
   line-height: normal;
   text-decoration: none;
   color: black;
-  padding: 0 15px;
+  padding: 0 15px 10px;
   color: #333;
+}
+
+@media (max-width:850px) {
+  .menu__link {
+    padding: 0 5px;
+  }
+}
+
+.menu__link:hover {
+  border-bottom: 3px solid #ccc;
+}
+
+@media (max-width:350px) {
+  .menu__link {
+    padding: 0 2px;
+  }
 }

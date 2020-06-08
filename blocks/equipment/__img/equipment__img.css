@@ -1,0 +1,7 @@
+@media (max-width:650px) {
+  .equipment__img {
+    width: 298px;
+    margin: 0 auto 20px;
+    order: -1;
+  }
+}

@@ -1,7 +1,25 @@
+@import url(./_two-column/obligatory__cell_two-column.css);
+
 .obligatory__cell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 350px;
+  margin: 10px 0;
 }
 
-.obligatory__cell:nth-of-type(2n) {
-  margin-left: auto;
+
+@media (max-width: 787px) {
+  .obligatory__cell {
+    width: 250px;
+  }
+}
+
+@media (max-width: 547px) {
+  .obligatory__cell {
+    width: 100%;
+  }
 }
